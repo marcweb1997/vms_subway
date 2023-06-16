@@ -29,9 +29,9 @@ $(document).ready(function() {
 							<div class="oneLine">
 								<p class="stationBtnPrice">`
 					if (value.stationNumber == currentStation) {
-						myElement = myElement + `<p class="priceBtn" style="margin-top: 5px;"><i class="fas fa-map-marker-alt"></i> Your current station</p>`
+						myElement = myElement + `<p class="priceBtn" style="margin-top: 5px;"><i class="fas fa-map-marker-alt"></i> Aktueller Standort</p>`
 					} else {
-						myElement = myElement + `Price: <p class="priceBtn">$${value.price}</p>`
+						myElement = myElement + `Preis: <p class="priceBtn">$${value.price}</p>`
 					}
 					myElement = myElement + `
 								</div>
